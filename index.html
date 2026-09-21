@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enjoyit Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Enjoyit Coffee</h1>
+        <p>Specialty Coffee & Bakery</p>
+        <nav>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Menu & Pricing</a></li>
+                <li><a href="">Order / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="card">
+            <h2>Welcome to Enjoyit Coffee</h2>
+            <p>At Enjoyit Coffee, we craft premium coffee from ethically sourced beans to brighten your day with rich flavors and a cozy atmosphere.</p>
+
+            <h3>Popular Coffee Categories:</h3>
+            <ul>
+                <li>Espresso Classics (Americano, Cappuccino, Latte)</li>
+                <li>Specialty Brews (Flat White, Cortado, Cold Brew)</li>
+                <li>Signature Drinks (Vanilla Bean Latte, Salted Caramel Mocha)</li>
+            </ul>
+
+            <h3>3 Steps to Enjoy Your Perfect Cup:</h3>
+            <ol>
+                <li>Choose your favorite freshly roasted coffee beans</li>
+                <li>Select your preferred milk type or flavor syrup</li>
+                <li>Pair it with our fresh daily baked pastries</li>
+            </ol>
+
+            <div class="image-group">
+                <img src="Coffee.jpg" alt="Freshly brewed cappuccino cup with latte art on a wooden table">
+                <img src="coff.jpg" alt="Freshly brewed cappuccino cup with latte art on a wooden table">
+            </div>
+        </section>
+        <section id="about" class="card">
+            <h2>Our Story & Craft</h2>
+            <p>Founded with a passion for quality, Enjoyit Coffee brings people together over <strong>handcrafted specialty beverages</strong> and warm hospitality. Our expert baristas ensure every cup is brewed with <em>precision and dedication</em>.</p>
+            <h3>Milestones in Our Journey:</h3>
+            <ol>
+                <li>2021 - Enjoyit Coffee launched its first flagship coffee house</li>
+                <li>2022 - Introduced in-house specialty bean roasting</li>
+                <li>2024 - Expanded menu with organic and vegan bakery options</li>
+                <li>2026 - Voted top local coffee shop for community atmosphere</li>
+            </ol>
+
+            <h3>Fun Facts About Our Coffee:</h3>
+            <ul>
+                <li>100% Arabica single-origin coffee beans sourced directly from farmers</li>
+                <li>We serve over 500 happy coffee lovers every single day</li>
+                <li>All bakery treats are made fresh in our kitchen every morning</li>
+                <li>Eco-friendly biodegradable takeaway cups and straws</li>
+            </ul>
+            <img src="Coffee.jpg" alt="Barista preparing specialty coffee with precision" class="single-img">
+            <p><em>Figure 1: Our baristas crafting specialty coffee with dedication.</em></p>
+            <p class="quote">"Coffee is a language in itself, bringing people together from all walks of life."</p>
+            <p><small>Source: Enjoyit Coffee Founder's Note</small></p>
+
+            <h3>Virtual Atmosphere Audio:</h3>
+            <iframe width="100%" height="315" framborder="5" src="https://www.youtube.com/embed/PRAGLqfNK1o" title="Enjoyit Coffee Shop Virtual Tour" allowfullscreen></iframe>
+
+            <p>
+                Learn more about coffee brewing standards on the 
+                <a href="https://sca.coffee" target="_blank" rel="noopener">Specialty Coffee Association Official Website</a>.
+            </p>
+        </section>
+        <section id="table" class="card">
+            <h2>Coffee Menu & Pricing</h2>
+            <p><strong>Enjoyit Coffee Beverage Selection</strong></p>
+            <table>
+                <tr>
+                    <th scope="col">Drink Name</th>
+                    <th scope="col">Small (8oz)</th>
+                    <th scope="col">Medium (12oz)</th>
+                    <th scope="col">Large (16oz)</th>
+                </tr>
+                <tr>
+                    <th scope="row">Espresso / Americano</th>
+                    <td>$3.00</td>
+                    <td>$3.50</td>
+                    <td>$4.00</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Cappuccino / Latte</th>
+                    <td>$4.00</td>
+                    <td>$4.50</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="note">Add oat, almond, or soy milk options for +$0.50</td>
+                </tr>
+                <tr>
+                    <th scope="row">Signature Cold Brew</th>
+                    <td>$4.50</td>
+                    <td>$5.00</td>
+                    <td>$5.50</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="3">Seasonal Discounts</th>
+                    <td>10% Off Morning Hours</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Place an Order or Contact Us</h2>
+            <form action="#" method="post">
+                <h3>Order & Pre-booking Form</h3>
+
+                <div class="form-group">
+                    <label for="username">Full Name:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Jane Doe" maxlength="50" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="jane.doe@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pickup-date">Pre-order Pickup Date:</label><br>
+                    <input type="date" id="pickup-date" name="pickup-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Number of Cups (1-10):</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                </div>
+
+                <div class="form-group">
+                    <label for="fav-color">Select Cup Sleeve Theme Color:</label><br>
+                    <input type="color" id="fav-color" name="fav-color" value="#1d70b8">
+                </div>
+
+                <div class="form-group">
+                    <label>Order Type Preference:</label><br>
+                    <input type="radio" id="dine-in" name="order_type" value="dine_in">
+                    <label for="dine-in">Dine In</label>
+                    
+                    <input type="radio" id="takeaway" name="order_type" value="takeaway" checked>
+                    <label for="takeaway">Takeaway</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="loyalty" name="loyalty" value="subscribe" required>
+                    <label for="loyalty">I agree to the store terms & conditions</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Special Instructions or Feedback:</label><br>
+                    <textarea id="message" name="message" rows="4" placeholder="Specify sugar levels, milk preference, or bakery items..."></textarea>
+                </div>
+
+                <button type="submit" id="submit-btn">Submit Order</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> 2026 Enjoyit Coffee House. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
